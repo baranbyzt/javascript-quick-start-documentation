@@ -28,7 +28,7 @@ console.log(toplam)
 
 /*
 
-javasicript yukarıdan aşşağıya doğru okunan bir dildir. yukarıdaki örnekte de gördüğünüz gibi önce
+javascript yukarıdan aşşağıya doğru okunan bir dildir. yukarıdaki örnekte de gördüğünüz gibi önce
 sayi1 ve yasi2 değişkenleriniz tanımlandı ardından onlara bir değer verdikten sonra
 toplam değişkenine yeni değerler tanımlayıp bunu geliştirici konsolumuzda gösterdik.
 
@@ -58,3 +58,9 @@ console.log(element_abc);
 burada kodumuzun hata vermemesi için HTML içerisinde new.js dosyamızı
 index.js dosyasından daha önce porjemize dahil etmeyi unutmayalım.
 */
+
+
+
+// burada bektick ler arasına ${} işareti ile özel değerlerimizi çekip string ifade şeklinde yazdırabiliriz.
+let ozel_sayi = 23;
+console.log(`sayı :  ${ozel_sayi}`)
